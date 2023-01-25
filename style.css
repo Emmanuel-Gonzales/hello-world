@@ -1,11 +1,11 @@
 html{
-background-color: #00D654;
+background-color: #f9df68;
 
 }
 
 
 header{
-    border: 6px ridge #8206D1;
+    border: 6px ridge #425f6d;
 }
 
 
@@ -13,7 +13,7 @@ h1{
     /* border: 5px solid black; */
     display: flex;
     justify-content: center;
-    color: #8206D1;
+    color:#010e14;
 }
 
 ul{
@@ -21,7 +21,12 @@ ul{
     display: flex;
     justify-content: space-evenly;
     font-size: medium;
+
 }
+    
+
+    
+
 
 
 img{
