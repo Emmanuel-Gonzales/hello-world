@@ -1,0 +1,29 @@
+html{
+background-color: #00D654;
+
+}
+
+
+header{
+    border: 6px ridge #8206D1;
+}
+
+
+h1{
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: center;
+    color: #8206D1;
+}
+
+ul{
+    /* border: 5px black solid; */
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+}
+
+
+img{
+    width: 20%;
+}
