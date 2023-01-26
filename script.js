@@ -1,10 +1,12 @@
 console.log("secret console messege");
 
-let usersName = prompt("What's Your Name")
 
-let input = prompt("Is Today Your Birthday");
+function birthdaySurprise(){
+    let usersName = prompt("What's Your Name");
     
-if (input == "yes") {
+    let input = prompt("Is Today Your Birthday");
+    
+    if (input == "yes") {
       document.write("Happy Birthday ");
       document.write(usersName);
       document.write("!! If you sign up to our news letter you can recive Yearly Birthday Discounts");
@@ -45,4 +47,4 @@ if (input == "yes") {
 
      else {document.write("Answer not in database, please try again");
     }
-
+}
