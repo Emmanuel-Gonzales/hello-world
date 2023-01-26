@@ -41,10 +41,14 @@ function birthdaySurprise(){
      else if (input == "Potato"){confirm("Yummy");}
      
      else if (input == ""){
-        document.write("Please submit an answer ");
-        document.write(usersName);
+        alert("Please submit an answer " +usersName);
+        birthdaySurprise()
     }
 
-     else {document.write("Answer not in database, please try again");
+    else if (input == null){
+        alert("Please submit an answer " +usersName);
+        birthdaySurprise()
+    }
+    else {document.write("Answer not in database, please try again");
     }
 }
