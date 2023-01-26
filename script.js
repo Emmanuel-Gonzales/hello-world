@@ -35,8 +35,8 @@ if (input == "yes") {
         document.write(usersName);
         document.write(", come back on your birthday for a special surprise");
     }    
-     else if (input == "potato"){document.write("yummy");}
-     else if (input == "Potato"){document.write("Yummy");}
+     else if (input == "potato"){confirm("yummy");}
+     else if (input == "Potato"){confirm("Yummy");}
      
      else if (input == ""){
         document.write("Please submit an answer ");
